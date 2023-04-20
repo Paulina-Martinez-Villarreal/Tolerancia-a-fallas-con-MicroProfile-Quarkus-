@@ -1,0 +1,4 @@
+mvn io.quarkus:quarkus-maven-plugin:2.5.2:create \
+    -DprojectGroupId=com.example \
+    -DprojectArtifactId=saludo-app \
+    -Dextensions="resteasy, resteasy-jsonb, smallrye-openapi"
